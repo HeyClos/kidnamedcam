@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
+background: rgb(200,252,186);
+background: radial-gradient(circle, rgb(208, 250, 197) 0%, rgba(239,248,226,1) 65%, rgba(178,227,237,1) 100%);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,6 +21,7 @@ a {
 
 * {
   box-sizing: border-box;
+  /* background-color: #eff8e2; */
 }
 
 @media (prefers-color-scheme: dark) {

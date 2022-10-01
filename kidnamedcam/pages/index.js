@@ -4,78 +4,56 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div class="container mx-auto">
       <Head>
         <title>KID NAMED CAM</title>
         <meta name="description" content="Las vegas music artist kidnamedcam" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          KID NAMED CAM
+      <main class={styles.main}>
+        <h1 className={styles.text_shadows}>
+          KIDNAMED
+        </h1>
+        <h1 className={styles.text_shadows}>
+          CAM
         </h1>
 
-        <p className={styles.description}>
-          From the 808
-          Music Artist
+        <p className="text-3xl font-bold font-mono m-1">
+          Music Artist from the 808
         </p>
-        <p className={styles.description}>
-          Co-Event Founder
+        <p className="font-mono m-1">
+          ~~~
+        </p>
+        <p className="font-mono m-1">
+          Cofounder
           @lastfriday
         </p>
-        <p className={styles.description}>
+        <p className="font-mono m-1">
+          ~~~
+        </p>
+        <p className="font-mono m-1">
           Model 📸
-          CA: @leaguemodels
-          LA: @dragonflyagency 🏝
-          LV: @tngagency 🎰
-          NY: @amr_agency 🗽
+        </p>
+        <p className="font-mono m-4">
+          CA: @leaguemodels<br/>
+          LA: @dragonflyagency 🏝<br/>
+          LV: @tngagency 🎰<br/>
+          NY: @amr_agency 🗽<br/>
+          <br/>
         </p>
 
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>See What I'm up to</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+        {/* bg-[#1DB954] */}
+        <a href="https://open.spotify.com/artist/0gMpn15H6b4kFaZj9GyVrh" class="relative inline-block text-lg group">
+          <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+          <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+          <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-[#1DB954] group-hover:-rotate-180 ease"></span>
+          <span class="relative">Peep my Spotify</span>
           </span>
+          <span class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
         </a>
-      </footer>
+
+      </main>
     </div>
   )
 }
