@@ -19,7 +19,7 @@ export default function Home() {
           CAM
         </h1>
 
-        <p className="text-3xl font-bold font-mono m-1">
+        <p className="content-center text-3xl font-bold font-mono m-1">
           Music Artist from the 808
         </p>
         <p className="font-mono m-1">
